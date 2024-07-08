@@ -1,8 +1,8 @@
 package com.rex;
 
-import java.util.Stack;
-
+import static com.rex.algorithms.Recursion.factorial;
 import static com.rex.algorithms.LinearSearch.linearSearch;
+import static com.rex.algorithms.Recursion.power;
 
 public class Main {
     public static void main(String[] args) {
@@ -16,5 +16,8 @@ public class Main {
         }else {
             System.out.println("Element not found");
         }
+
+        System.out.println(factorial(7));
+        System.out.println(power(2,8));
     }
 }
